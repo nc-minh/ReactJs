@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Props</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        const list = [
+            {
+                title: 'title 1',
+                name: 'name 1'
+            },
+            {
+                title: 'title 2',
+                name: 'name 2'
+            },
+            {
+                title: 'title 3',
+                name: 'name 3'
+            },
+            {
+                title: 'title 4',
+                name: 'name 4'
+            }
+        ];
+
+        const ListItem = props => (
+            <div>
+                <h1>{ props.title }</h1>
+                <h2>{ props.name }</h2>
+            </div>
+        );
+
+        function App(){
+            return (
+                <div>
+                    {
+                        list.map( (item, index) => (
+                            <ListItem
+                                key={index}
+                                title={item.title}
+                                name={item.name}
+                            />
+                        ))
+                    }    
+                </div>
+            );
+        };
+
+        ReactDOM.render(<App/>, document.getElementById('root'))
+    </script>
+</body>
+</html>
