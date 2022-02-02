@@ -4,26 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to use reactJs in Html file</title>
+    <title>ReactDOM</title>
     <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 </head>
 <body>
+    <div id="root"></div>
     <script>
-        console.log(React.version)
-        // DOM
-        const h1DOM = document.createElement('h1')  
-        h1DOM.title = 'Hello'
-        h1DOM.className = 'heading'
-        h1DOM.innerText = 'Hello Guys!'
-
-        document.body.appendChild(h1DOM)
-
-        // React
         const h1React = React.createElement('h1', {
             title: 'Hello',
             className: 'heading'
         }, 'Hello Guys!')
 
+        const root = document.getElementById('root')
+        ReactDOM.render(h1React, root)
     </script>
 </body>
 </html>
