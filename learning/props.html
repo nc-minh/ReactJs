@@ -40,12 +40,25 @@
             </div>
         );
 
+        const Form = {
+            Input(){
+                return <input/>
+            },
+
+            Checkbox(){
+                return <input type="checkbox"/>
+            }
+        }
+
         function App(){
 
             //use callback
             const handleClick = (props) => {
                 console.log(props.title)
             }
+
+            const type = 'Input'
+            const Component = Form[type]
 
             return (
                 <div>
@@ -59,6 +72,9 @@
                             />
                         ))
                     }    
+                    <Form.Input/>
+                    <Form.Checkbox/>
+                    <Component/>
                 </div>
             );
         };
