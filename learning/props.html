@@ -33,12 +33,20 @@
 
         const ListItem = props => (
             <div>
-                <h1>{ props.title }</h1>
+                <h1
+                    onClick={() => props.onClick(props)}
+                >{ props.title }</h1>
                 <h2>{ props.name }</h2>
             </div>
         );
 
         function App(){
+
+            //use callback
+            const handleClick = (props) => {
+                console.log(props.title)
+            }
+
             return (
                 <div>
                     {
@@ -47,6 +55,7 @@
                                 key={index}
                                 title={item.title}
                                 name={item.name}
+                                onClick={handleClick}
                             />
                         ))
                     }    
