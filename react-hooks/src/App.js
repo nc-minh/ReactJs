@@ -1,5 +1,7 @@
 
 import { useState } from 'react'
+import Gifts from './components/Gifts'
+import FormCheck from './components/FormCheck'
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
     <div className="App">
       <h1>{counter}</h1>
       <button onClick={handleIncrease}>Increase</button>
+      <Gifts/>
+      <FormCheck/>
     </div>
   );
 }
