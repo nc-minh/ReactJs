@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import Gifts from './components/Gifts'
 import FormCheck from './components/FormCheck'
+import FormCheckBox from './components/FormCheckBox'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
       <button onClick={handleIncrease}>Increase</button>
       <Gifts/>
       <FormCheck/>
+      <FormCheckBox/>
     </div>
   );
 }
