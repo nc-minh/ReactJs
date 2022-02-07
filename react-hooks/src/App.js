@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Gifts from './components/Gifts'
 import FormCheck from './components/FormCheck'
 import FormCheckBox from './components/FormCheckBox'
+import TodoList from './components/TodoList'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
       <Gifts/>
       <FormCheck/>
       <FormCheckBox/>
+      <TodoList/>
     </div>
   );
 }
