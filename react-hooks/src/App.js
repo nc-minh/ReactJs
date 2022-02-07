@@ -4,6 +4,7 @@ import Gifts from './components/Gifts'
 import FormCheck from './components/FormCheck'
 import FormCheckBox from './components/FormCheckBox'
 import TodoList from './components/TodoList'
+import Mounted from './components/Mounted-Unmounted'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <FormCheck/>
       <FormCheckBox/>
       <TodoList/>
+      <Mounted/>
     </div>
   );
 }
