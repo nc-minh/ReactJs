@@ -6,6 +6,7 @@ import FormCheckBox from './components/FormCheckBox'
 import TodoList from './components/TodoList'
 import Mounted from './components/Mounted-Unmounted'
 import UseEffect from './components/useEffect'
+import UseEffectWithDOM from './components/useEffect-withDOM'
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
       <TodoList/>
       <Mounted/>
       <UseEffect/>
+      <UseEffectWithDOM/>
     </div>
   );
 }
