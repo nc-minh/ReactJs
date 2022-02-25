@@ -11,6 +11,7 @@ import UseLayoutEffect from './components/useLayoutEffect'
 import UseRef from './components/useRef'
 import Memo from './components/memo'
 import UseCallback from './components/useCallback'
+import UseMemo from './components/useMemo'
 
 function App() {
 
@@ -47,6 +48,7 @@ function App() {
       <UseRef/>
       <Memo/>
       <UseCallback/>
+      <UseMemo/>
     </div>
   );
 }
