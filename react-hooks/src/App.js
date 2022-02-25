@@ -13,6 +13,7 @@ import Memo from './components/memo'
 import UseCallback from './components/useCallback'
 import UseMemo from './components/useMemo'
 import UseReducer from './components/useReducer'
+import TodoAppUseReducer from './components/TodoApp-useReducer'
 
 function App() {
 
@@ -39,18 +40,32 @@ function App() {
       <h1>{counter}</h1>
       <button onClick={handleIncrease}>Increase</button>
       <Gifts/>
+      <hr/>
       <FormCheck/>
+      <hr/>
       <FormCheckBox/>
+      <hr/>
       <TodoList/>
+      <hr/>
       <Mounted/>
+      <hr/>
       <UseEffect/>
+      <hr/>
       <UseEffectWithDOM/>
+      <hr/>
       <UseLayoutEffect/>
+      <hr/>
       <UseRef/>
+      <hr/>
       <Memo/>
+      <hr/>
       <UseCallback/>
+      <hr/>
       <UseMemo/>
+      <hr/>
       <UseReducer/>
+      <hr/>
+      <TodoAppUseReducer/>
     </div>
   );
 }
