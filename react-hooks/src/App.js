@@ -10,6 +10,7 @@ import UseEffectWithDOM from './components/useEffect-withDOM'
 import UseLayoutEffect from './components/useLayoutEffect'
 import UseRef from './components/useRef'
 import Memo from './components/memo'
+import UseCallback from './components/useCallback'
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
       <UseLayoutEffect/>
       <UseRef/>
       <Memo/>
+      <UseCallback/>
     </div>
   );
 }
