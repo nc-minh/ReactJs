@@ -7,6 +7,8 @@ import TodoList from './components/TodoList'
 import Mounted from './components/Mounted-Unmounted'
 import UseEffect from './components/useEffect'
 import UseEffectWithDOM from './components/useEffect-withDOM'
+import UseLayoutEffect from './components/useLayoutEffect'
+import UseRef from './components/useRef'
 
 function App() {
 
@@ -39,6 +41,8 @@ function App() {
       <Mounted/>
       <UseEffect/>
       <UseEffectWithDOM/>
+      <UseLayoutEffect/>
+      <UseRef/>
     </div>
   );
 }
