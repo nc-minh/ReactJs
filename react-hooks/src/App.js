@@ -12,6 +12,7 @@ import UseRef from './components/useRef'
 import Memo from './components/memo'
 import UseCallback from './components/useCallback'
 import UseMemo from './components/useMemo'
+import UseReducer from './components/useReducer'
 
 function App() {
 
@@ -49,6 +50,7 @@ function App() {
       <Memo/>
       <UseCallback/>
       <UseMemo/>
+      <UseReducer/>
     </div>
   );
 }
