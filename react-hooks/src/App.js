@@ -14,6 +14,7 @@ import UseCallback from './components/useCallback'
 import UseMemo from './components/useMemo'
 import UseReducer from './components/useReducer'
 import TodoAppUseReducer from './components/TodoApp-useReducer'
+import Main from './components/useContext/Main'
 
 function App() {
 
@@ -66,6 +67,8 @@ function App() {
       <UseReducer/>
       <hr/>
       <TodoAppUseReducer/>
+      <hr/>
+      <Main/>
     </div>
   );
 }
