@@ -1,0 +1,27 @@
+.btn{
+    padding: 8px 20px;
+    outline: none;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgb(85, 85, 250);
+    }
+}
+
+.primary{
+    background-color: rgb(250, 40, 40);
+}
+
+.disabled{
+    opacity: .7;
+    background-color: blue;
+
+    &:hover{
+        cursor: default;
+        background-color: blue;
+    }
+}
