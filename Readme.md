@@ -22,3 +22,8 @@ console.log(sum(2, 3))
 - setState with callBack | App.js - 22
 - Initial with callBack | App.js - 15
 - Set state is replace state with a new value
+
+
+# Component
+- Container component
+- presentational component
