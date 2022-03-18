@@ -19,8 +19,8 @@ console.log(sum(2, 3))
 > useState
 - Component is re-render after `setState`
 - Initial state only used for the first time
-- setState with callBack | App.js - 22
-- Initial with callBack | App.js - 15
+- setState with callBack | App.js - 21
+- Initial with callBack | App.js - 28
 - Set state is replace state with a new value
 
 
