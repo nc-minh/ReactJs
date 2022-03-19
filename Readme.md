@@ -27,3 +27,9 @@ console.log(sum(2, 3))
 # Component
 - Container component
 - presentational component
+
+# Side effects
+- Effects: clean up: call API, DOM
+- Effects: not clean up: subscriptions, setTimeOut, setInterVal
+
+# Prettier
