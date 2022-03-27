@@ -8,9 +8,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.2",
+    "@mui/styled-engine-sc": "^5.5.2",
+    "@mui/styles": "^5.5.1",
+    "@reduxjs/toolkit": "^1.8.0",
+    "mui": "^0.0.1",
     "node-sass": "^7.0.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
