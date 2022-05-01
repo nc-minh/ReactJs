@@ -23,7 +23,6 @@ console.log(sum(2, 3))
 - Initial with callBack | App.js - 28
 - Set state is replace state with a new value
 
-
 # Component
 - Container component
 - presentational component
